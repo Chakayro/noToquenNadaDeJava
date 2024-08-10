@@ -1,0 +1,66 @@
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainMin{
+    min-height: 100hv;
+}
+.bannerClass{
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+.bannerClass2{
+    height: 350px;
+    object-fit: cover;
+    
+}
+
+.bannerRelleno{
+    height: 300px;
+    object-fit: cover;
+    
+}
+.card{
+    margin:6px;
+}
+
+.detailsImg{
+    height: 100;
+    object-fit: cover;
+}
+.textoTarjetas>p{
+    min-height: 6rem;
+}
+
+@media (min-width: 993px) { 
+    #listaNav{
+        position: absolute;
+         right: 6px;
+         display: flex;
+         justify-content: space-between;
+    }
+
+    #animado1{
+        opacity: 0;
+    }
+    #animado1:hover{
+        opacity: 100;
+     }
+     
+
+}
+
+
+@media (min-width: 93px) { 
+    .position-absolute{
+        top: 0;
+        margin-top: 11px;
+     }    
+
+    
+}
+
+
